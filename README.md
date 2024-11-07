@@ -1,5 +1,5 @@
-Smart traffic-light
-
+**Smart traffic-light
+**
 A system for controlling pedestrian traffic by using an existing infrastructure of traffic light cameras.
 In order to improve the quality of vehicular traffic at the intersection without the interruptions of allowing pedestrians to cross that is not consumed, a camera installed in the pedestrian traffic light will detect if there is a pedestrian near the road who may want to cross the road, the system will schedule a green light and allow the pedestrian to cross the road.
 A pedestrian traffic light on which the camera is installed will usually be red. Every few seconds a status check will be conducted, when the camera recognizes a human figure by a computer vision model - R-CNN, it will perform a location analysis in order to guess if this person wants to cross the road - Triangle Similarity for Object/Marker to Camera Distance, in addition we will save On the timing balance between the traffic of vehicles and pedestrians, if these conditions are met, it will be possible to cross the road.
